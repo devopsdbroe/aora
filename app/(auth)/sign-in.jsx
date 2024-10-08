@@ -63,6 +63,7 @@ const SignIn = () => {
 						handleChangeText={(e) => setForm({ ...form, email: e })}
 						otherStyles="mt-7"
 						keyboardType="email-address"
+						autoCapitalize="none"
 					/>
 					<FormField
 						title="Password"

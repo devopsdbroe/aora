@@ -25,6 +25,7 @@ const FormField = ({
 					placeholderTextColor="#7b7b8b"
 					onChangeText={handleChangeText}
 					secureTextEntry={title === "Password" && !showPassword}
+					{...props}
 				/>
 
 				{title === "Password" && (
